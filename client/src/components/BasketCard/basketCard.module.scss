@@ -1,0 +1,30 @@
+.cardBox {
+    width: 800px;
+    border-top: 1px solid #9e9d9d;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+.textContainer {
+    width: 500px;
+}
+
+.optionBtnBox {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.optionBtn {
+    border-bottom: 1px solid #000000;
+    user-select: none;
+}

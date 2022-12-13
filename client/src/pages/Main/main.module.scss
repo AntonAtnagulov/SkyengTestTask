@@ -1,0 +1,28 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    // display: grid;
+    // grid-template-columns: 400px 400px 400px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.priceSort {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    margin: 10px 0px;
+}
+
+.priceSort, .priceSort:hover {
+    outline: 1px solid #d3d3d3 !important;
+}

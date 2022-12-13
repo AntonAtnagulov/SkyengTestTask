@@ -1,0 +1,41 @@
+.cardContainer {
+    position: relative;
+    max-width: 500px;
+    min-width: 450px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textContainer {
+    width: 350px;
+}
+
+.cardContainer:hover {
+    transform: scale(1.01);
+}
+
+.descriptionBox {
+    color: #888888;
+    height: 50px;
+}
+
+.cartIcon {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 20px;
+    right: 16%;
+    background-color: #888888;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartIcon:active {
+    z-index: 3;
+    transform: scale(1.1);
+}

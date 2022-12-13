@@ -1,0 +1,38 @@
+$primary-color: #d3d3d3;
+$white: #ffffff;
+
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 0px 5%;
+    color: $white;
+    background-color: $primary-color;
+    width: 90%;
+    height: 60px;
+    top: 0;
+    z-index: 2;
+}
+
+.rightContainer {
+    position: relative;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge {
+    position: absolute;
+    left: 50px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #076463;
+    border-radius: 100%;
+    color: $white;
+}
