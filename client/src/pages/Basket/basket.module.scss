@@ -17,17 +17,16 @@ $maincolor: #F7F6F6;
     margin: 15px;
 }
 
-.btnContainer {
-    display: flex;
-    justify-content: space-around;
-}
-
 .inputForm {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
+.btnContainer {
+    display: flex;
+    justify-content: space-around;
+}
 .totalSum {
     font-size: 30px;
 }
